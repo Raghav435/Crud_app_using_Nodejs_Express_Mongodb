@@ -5,8 +5,6 @@ const blogRoute = require("./route/blog.route");
 const userRoute = require("./route/user.route");
 const PORT = process.env.PORT || 8000;
 
-
-
 //create
 const app = express();
 app.use(express.json());
